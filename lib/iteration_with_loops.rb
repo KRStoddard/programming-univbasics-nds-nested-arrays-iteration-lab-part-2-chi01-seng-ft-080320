@@ -9,7 +9,7 @@ def find_min_in_nested_arrays(src)
       low = src[index_count][element_index]
     end
     element_index += 1 
-    day_low << low 
+    day_low.push(low) 
   end
   index_count += 1 
 end
